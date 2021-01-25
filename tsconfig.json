@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "sourceMap": true,
+    "removeComments": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "lib"
+  },
+  "exclude": [
+    "node_modules",
+    "script",
+    "lib/*.test.ts"
+  ]
+}
